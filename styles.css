@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+input{
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid rgba(255, 192, 203, 0.697);
+    padding-left: 10px;
+    font-size: medium;
+}
+.button{
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(255, 192, 203, 0.697);
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;    
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* border: 10px solid red; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:  50px;
+}
+#er{
+    padding: 20px;
+    color: red;
+    font-weight: 600;
+}
+#scorecard{
+    padding-left: 10px;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.card{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* border: solid; */
+    margin-top: 10px;
+    background-color: rgba(255, 192, 203, 0.697);
+    padding-right: 30px;
+    font-size: large;
+}
+.buuton{
+    display: flex;
+    gap:10px
+}
+.date{
+    padding-top: 10px;
+    font-size: small;
+    font-weight: 200;
+}
+.allbuts{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 20px;
+}
